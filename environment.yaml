@@ -1,0 +1,21 @@
+name: py_r_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - jupyter
+  - notebook
+  - ipykernel
+  - r-base=4.3
+  - r-essentials
+  - r-irkernel
+  - r-tidyverse
+  - r-data.table
+  - r-ggplot2
